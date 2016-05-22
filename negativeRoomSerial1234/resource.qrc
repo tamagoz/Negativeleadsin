@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fancoil.gif</file>
+        <file>off_icon.png</file>
+        <file>on_icon.png</file>
+    </qresource>
+</RCC>

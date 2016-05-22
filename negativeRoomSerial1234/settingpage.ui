@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>settingPage</class>
+ <widget class="QDialog" name="settingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Setting Mode</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>281</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="title">
+    <string>Set Temperature</string>
+   </property>
+   <widget class="QDial" name="dial">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;</string>
+    </property>
+    <property name="minimum">
+     <number>10</number>
+    </property>
+    <property name="maximum">
+     <number>40</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>29</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="minimum">
+     <number>18</number>
+    </property>
+    <property name="maximum">
+     <number>30</number>
+    </property>
+    <property name="value">
+     <number>25</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #55aaff;
+border: 3px solid black;
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>Set Temperature</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="standard">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>30</y>
+     <width>231</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ffff7f;
+border: 3px solid black;
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>Negative Low Pressure</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="negative">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>170</y>
+     <width>231</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ff557f;
+border: 3px solid black;
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>Negative High Pressure</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>330</y>
+     <width>151</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #aaff7f;
+border: 3px solid black;
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>201</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="title">
+    <string>Test mode</string>
+   </property>
+   <widget class="QPushButton" name="testMode">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #55aaff;
+border: 3px solid black;
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>Test Relay</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Fan coil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ex low</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ex high</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Air water</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Damper open</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Damper close</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>dial</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dial</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>137</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
